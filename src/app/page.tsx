@@ -43,15 +43,15 @@ export default function Home() {
                             <CardContent className="pt-6">
                                 <Clock className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                                 <h3 className="text-xl font-semibold mb-2 text-gray-900">Sunday Worship</h3>
-                                <p className="text-gray-600 mb-2 font-medium">9:00 AM & 11:00 AM</p>
-                                <p className="text-sm text-gray-500">Traditional & Contemporary Services</p>
+                                <p className="text-gray-600 mb-2 font-medium">11:30 AM</p>
+                                <p className="text-sm text-gray-500">Holy Communion Services</p>
                             </CardContent>
                         </Card>
                         <Card className="text-center p-6 border-2 hover:border-purple-200 hover:shadow-lg transition-all duration-300">
                             <CardContent className="pt-6">
                                 <BookOpen className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                                 <h3 className="text-xl font-semibold mb-2 text-gray-900">Bible Study</h3>
-                                <p className="text-gray-600 mb-2 font-medium">Wednesday 7:00 PM</p>
+                                <p className="text-gray-600 mb-2 font-medium">Thursday 7:00 PM</p>
                                 <p className="text-sm text-gray-500">All ages welcome</p>
                             </CardContent>
                         </Card>
