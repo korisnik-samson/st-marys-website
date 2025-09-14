@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { BookOpen, Clock, Mail, MapPin, Phone, Users } from "lucide-react";
 import Footer from "@/components/footer";
+import TextType from "@/components/TextType";
 
 export default function Home() {
     return (
@@ -13,9 +14,16 @@ export default function Home() {
             {/* Hero Section */}
             <section className="relative py-80 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto text-center">
-                    <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 text-balance">
+                    {/*<h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 text-balance">
                         Welcome to St. Mary's Anglican Church
-                    </h1>
+                    </h1>*/}
+                    <div className="text-white-100">
+                        <TextType className="text-4xl md:text-6xl font-bold mb-6 text-balance"
+                                  text={["Welcome to St. Mary's Anglican Church"]} typingSpeed={75} pauseDuration={1500}
+                                  showCursor={true} cursorCharacter="|"
+                        />
+                    </div>
+
                     <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto text-pretty leading-relaxed">
                         A place where faith, hope, and love come together. Join our community as we grow in Christ and serve others
                         with open hearts.
